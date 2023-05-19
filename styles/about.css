@@ -1,0 +1,36 @@
+.about-header__separator {
+   margin: 0 auto 40px auto;
+}
+
+.about-header__subtitle {
+   margin-bottom: 71px;
+}
+
+.about__column {
+   display: inline-block;
+}
+
+.about-item {
+   max-width: 320px;
+   margin: 20px;
+}
+
+.about-item__icon {
+   margin: 0 auto;
+   width: 92px;
+   height: 92px;
+   border: 1px solid #EC7979;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 39px auto;
+}
+
+.about-item__title {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   min-height: 100px;
+}
