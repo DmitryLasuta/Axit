@@ -6,31 +6,25 @@
    margin-bottom: 71px;
 }
 
-.about__column {
-   display: inline-block;
-}
-
-.about-item {
+.card {
    max-width: 320px;
+   display: inline-block;
    margin: 20px;
 }
 
-.about-item__icon {
+.card__icon {
+   display: block;
    margin: 0 auto;
-   width: 92px;
-   height: 92px;
-   border: 1px solid #EC7979;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 39px auto;
 }
 
-.about-item__title {
+.card__title {
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
    font-size: 24px;
    line-height: 33px;
    min-height: 100px;
+}
+
+.card__description {
+   color: #000;
 }
