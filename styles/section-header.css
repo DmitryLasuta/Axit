@@ -1,0 +1,19 @@
+.section-header__title {
+   min-height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section-header__separator {
+   width: 170px;
+   height: 0px;
+   border: 1px solid #EC7979;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+.section-header__subtitle {
+   margin-bottom: 71px;
+}
+
