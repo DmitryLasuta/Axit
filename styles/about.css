@@ -2,6 +2,10 @@
    margin-bottom: 71px;
 }
 
+.about__content-box {
+   font-size: 0;
+}
+
 .about__card {
    max-width: 320px;
    display: inline-block;
