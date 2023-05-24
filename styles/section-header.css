@@ -14,6 +14,8 @@
 }
 
 .section-header__subtitle {
-   margin-bottom: 71px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
