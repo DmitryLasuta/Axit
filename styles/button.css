@@ -1,0 +1,16 @@
+.button {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #EC7979;
+  border: none;
+  padding: 16.5px 100px;
+}
+
+.button:hover {
+   background: #AB4949;
+   cursor: pointer; 
+}
