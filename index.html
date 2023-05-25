@@ -21,7 +21,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/config.css" />
-    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/button.css" />
     <link rel="stylesheet" href="./styles/tabs.css" />
     <link rel="stylesheet" href="./styles/section-header.css" />
     <link rel="stylesheet" href="./styles/about.css" />
@@ -30,12 +30,14 @@
   </head>
 
   <body>
-    <article class="tabs">
+    <div class="tabs">
       <div class="container">
         <ul class="tabs__list">
-          <li class="tabs__item tabs__item--active"><a href="#" class="tabs__link">tab 1</a></li>
-          <li class="tabs__item"><a href="#" class="tabs__link">tab 2</a></li>
-          <li class="tabs__item"><a href="#" class="tabs__link">tab 3</a></li>
+          <li class="tabs__item tabs__item--active">
+            <button type="button" class="tabs__button">tab 1</button>
+          </li>
+          <li class="tabs__item"><button type="button" class="tabs__button">tab 2</button></li>
+          <li class="tabs__item"><button type="button" class="tabs__button">tab 3</button></li>
         </ul>
 
         <section class="tabs__content">
@@ -51,7 +53,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet.
             </p>
-            <button class="button">download</button>
+            <button type="button" class="button">download</button>
           </div>
           <img
             class="tabs__content-picture"
@@ -60,7 +62,7 @@
           />
         </section>
       </div>
-    </article>
+    </div>
 
     <section class="about">
       <div class="container">

@@ -5,12 +5,10 @@
   line-height: 25px;
   text-transform: capitalize;
   color: #ffffff;
-  background-color: #EC7979;
-  border: none;
+  background-color: #ec7979;
   padding: 16.5px 100px;
 }
 
 .button:hover {
-   background: #AB4949;
-   cursor: pointer; 
+  background: #ab4949;
 }
