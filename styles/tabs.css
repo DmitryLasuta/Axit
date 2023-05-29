@@ -48,9 +48,12 @@
 }
 
 .tabs__item--active {
+  position: relative;
+  top: 1px;
+  background-color: #fff;
   border: 1px solid #c6cbcd;
+  border-bottom: none;
   border-radius: 5px 5px 0 0;
-  border-bottom: 1px solid #fff;
 }
 
 .tabs__button {
