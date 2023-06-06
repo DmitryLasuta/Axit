@@ -2,6 +2,10 @@
   padding: 25px 0;
 }
 
+.tabs__title {
+  font-size: 0;
+}
+
 .tabs__content {
   font-size: 0;
   text-align: justify;

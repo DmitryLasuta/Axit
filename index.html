@@ -26,261 +26,264 @@
     <link rel="stylesheet" href="./styles/section-header.css" />
     <link rel="stylesheet" href="./styles/about.css" />
     <link rel="stylesheet" href="./styles/pricing.css" />
-    <link rel="stylesheet" href="styles/reviews.css" />
+    <link rel="stylesheet" href="./styles/reviews.css" />
 
     <title>AXIT</title>
   </head>
 
   <body>
-    <div class="tabs">
-      <div class="container">
-        <ul class="tabs__list">
-          <li class="tabs__item tabs__item--active">
-            <button type="button" class="tabs__button">tab 1</button>
-          </li>
-          <li class="tabs__item">
-            <button type="button" class="tabs__button">tab 2</button>
-          </li>
-          <li class="tabs__item">
-            <button type="button" class="tabs__button">tab 3</button>
-          </li>
-        </ul>
+    <main class="main">
+      <section class="tabs">
+        <div class="container">
+          <h2 class="tabs__title">Features</h2>
+          <ul class="tabs__list" role="tablist">
+            <li class="tabs__item tabs__item--active" role="tab">
+              <button class="tabs__button" type="button">tab 1</button>
+            </li>
+            <li class="tabs__item" role="tab">
+              <button class="tabs__button" type="button">tab 2</button>
+            </li>
+            <li class="tabs__item" role="tab">
+              <button class="tabs__button" type="button">tab 3</button>
+            </li>
+          </ul>
 
-        <section class="tabs__content">
-          <div class="tabs__content-description">
-            <h3 class="tabs__content-title">
-              Tabs with soft transitioning effect.
-            </h3>
-            <p class="tabs__content-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
-              Cum sociis natoque penatibus et magnis dis parturient montes.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.
+          <section class="tabs__content">
+            <div class="tabs__content-description">
+              <h3 class="tabs__content-title">
+                Tabs with soft transitioning effect.
+              </h3>
+              <p class="tabs__content-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo. Proin sodales pulvinar
+                tempor. Cum sociis natoque penatibus et magnis dis parturient
+                montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod bibendum laoreet.
+              </p>
+              <button class="button" type="button">download</button>
+            </div>
+            <img
+              class="tabs__content-picture"
+              src="./assets/images/tab-image.jpg"
+              alt="Statue of Liberty"
+            />
+          </section>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title">why this is awesome</h2>
+            <div class="section-header__separator"></div>
+            <p class="section-header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="button" type="button">download</button>
+          </header>
+          <div class="about__content-box">
+            <article class="about__card">
+              <img
+                src="./assets/icons/about/about01.svg"
+                alt="icon"
+                class="about__card-icon"
+              />
+              <h3 class="about__card-title">Thoughtful Design</h3>
+              <p class="about__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </article>
+            <article class="about__card">
+              <img
+                src="./assets/icons/about/about02.svg"
+                alt="icon"
+                class="about__card-icon"
+              />
+              <h3 class="about__card-title">Thoughtful Design</h3>
+              <p class="about__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </article>
+            <article class="about__card">
+              <img
+                src="./assets/icons/about/about03.svg"
+                alt="icon"
+                class="about__card-icon"
+              />
+              <h3 class="about__card-title">Thoughtful Design</h3>
+              <p class="about__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </article>
           </div>
-          <img
-            class="tabs__content-picture"
-            src="./assets/images/tab-image.jpg"
-            alt="Statue of Liberty"
-          />
-        </section>
-      </div>
-    </div>
-
-    <section class="about">
-      <div class="container">
-        <header class="section-header">
-          <h2 class="section-header__title">why this is awesome</h2>
-          <div class="section-header__separator"></div>
-          <p class="section-header__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </header>
-        <div class="about__content-box">
-          <article class="about__card">
-            <img
-              src="./assets/icons/about/about01.svg"
-              alt="icon"
-              class="about__card-icon"
-            />
-            <h3 class="about__card-title">Thoughtful Design</h3>
-            <p class="about__card-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </article>
-          <article class="about__card">
-            <img
-              src="./assets/icons/about/about02.svg"
-              alt="icon"
-              class="about__card-icon"
-            />
-            <h3 class="about__card-title">Thoughtful Design</h3>
-            <p class="about__card-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </article>
-          <article class="about__card">
-            <img
-              src="./assets/icons/about/about03.svg"
-              alt="icon"
-              class="about__card-icon"
-            />
-            <h3 class="about__card-title">Thoughtful Design</h3>
-            <p class="about__card-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="pricing">
-      <div class="container">
-        <header class="section-header">
-          <h2 class="section-header__title">pricing options</h2>
-          <div class="section-header__separator"></div>
-          <p class="section-header__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </header>
+      <section class="pricing">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title">pricing options</h2>
+            <div class="section-header__separator"></div>
+            <p class="section-header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </header>
 
-        <div class="pricing__content-box">
-          <ul class="pricing__list">
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
-            >
-              <h3 class="pricing__list-title">Basic</h3>
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
-            >
-              $10
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
-            >
-              Free for life
-            </li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-          </ul>
+          <div class="pricing__content-box">
+            <ul class="pricing__list">
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
+              >
+                <h3 class="pricing__list-title">Basic</h3>
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
+              >
+                $10
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
+              >
+                Free for life
+              </li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+            </ul>
 
-          <ul class="pricing__list">
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
-            >
-              <h3 class="pricing__list-title">Optima</h3>
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
-            >
-              $20
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
-            >
-              Free for life
-            </li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-          </ul>
+            <ul class="pricing__list">
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
+              >
+                <h3 class="pricing__list-title">Optima</h3>
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
+              >
+                $20
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
+              >
+                Free for life
+              </li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+            </ul>
 
-          <ul class="pricing__list">
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
-            >
-              <h3 class="pricing__list-title">Pro</h3>
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
-            >
-              $30
-            </li>
-            <li
-              class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
-            >
-              Free for life
-            </li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-            <li class="pricing__list-item">1 gb of space</li>
-          </ul>
+            <ul class="pricing__list">
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x1"
+              >
+                <h3 class="pricing__list-title">Pro</h3>
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--grow-x2"
+              >
+                $30
+              </li>
+              <li
+                class="pricing__list-item pricing__list-item--black pricing__list-item--transparent-text"
+              >
+                Free for life
+              </li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+              <li class="pricing__list-item">1 gb of space</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="reviews">
-      <div class="container">
-        <header class="section-header">
-          <h2 class="section-header__title">what our customers are saying</h2>
-          <div class="section-header__separator"></div>
-          <p class="section-header__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </header>
-
-        <div class="reviews__content-box">
-          <article class="reviews__customer-review">
-            <p class="reviews__customer-message">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloribus accusamus expedita repellat similique odio aspernatur
-              ex, architecto eaque quo suscipit.
+      <section class="reviews">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title">what our customers are saying</h2>
+            <div class="section-header__separator"></div>
+            <p class="section-header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+          </header>
 
-            <div class="reviews__customer">
-              <img
-                class="reviews__customer-photo"
-                src="./assets/images/reviews/customer01.png"
-                alt="customer photo"
-              />
-              <div class="reviews__customer-info">
-                <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
-                <p class="reviews__customer-job-position">Manager</p>
+          <div class="reviews__content-box">
+            <article class="reviews__customer-review">
+              <p class="reviews__customer-message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus accusamus expedita repellat similique odio aspernatur
+                ex, architecto eaque quo suscipit.
+              </p>
+
+              <div class="reviews__customer">
+                <img
+                  class="reviews__customer-photo"
+                  src="./assets/images/reviews/customer01.png"
+                  alt="customer photo"
+                />
+                <div class="reviews__customer-info">
+                  <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
+                  <p class="reviews__customer-job-position">Manager</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
 
-          <article class="reviews__customer-review">
-            <p class="reviews__customer-message">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloribus accusamus expedita repellat similique odio aspernatur
-              ex, architecto eaque quo suscipit.
-            </p>
+            <article class="reviews__customer-review">
+              <p class="reviews__customer-message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus accusamus expedita repellat similique odio aspernatur
+                ex, architecto eaque quo suscipit.
+              </p>
 
-            <div class="reviews__customer">
-              <img
-                class="reviews__customer-photo"
-                src="./assets/images/reviews/customer02.png"
-                alt="customer photo"
-              />
-              <div class="reviews__customer-info">
-                <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
-                <p class="reviews__customer-job-position">Manager</p>
+              <div class="reviews__customer">
+                <img
+                  class="reviews__customer-photo"
+                  src="./assets/images/reviews/customer02.png"
+                  alt="customer photo"
+                />
+                <div class="reviews__customer-info">
+                  <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
+                  <p class="reviews__customer-job-position">Manager</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
 
-          <article class="reviews__customer-review">
-            <p class="reviews__customer-message">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloribus accusamus expedita repellat similique odio aspernatur
-              ex, architecto eaque quo suscipit.
-            </p>
+            <article class="reviews__customer-review">
+              <p class="reviews__customer-message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus accusamus expedita repellat similique odio aspernatur
+                ex, architecto eaque quo suscipit.
+              </p>
 
-            <div class="reviews__customer">
-              <img
-                class="reviews__customer-photo"
-                src="./assets/images/reviews/customer03.png"
-                alt="customer photo"
-              />
-              <div class="reviews__customer-info">
-                <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
-                <p class="reviews__customer-job-position">Manager</p>
+              <div class="reviews__customer">
+                <img
+                  class="reviews__customer-photo"
+                  src="./assets/images/reviews/customer03.png"
+                  alt="customer photo"
+                />
+                <div class="reviews__customer-info">
+                  <h3 class="reviews__customer-name">Davis Rhiel Madsen</h3>
+                  <p class="reviews__customer-job-position">Manager</p>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
