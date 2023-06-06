@@ -111,10 +111,7 @@
   font-size: 14px;
   text-transform: capitalize;
   color: #ffffff;
-}
-
-.header__nav-item {
-  padding: 1.5rem 2rem;
+  padding: 1.53rem 2rem;
 }
 
 .header__nav-item:hover {
@@ -136,4 +133,8 @@
 
 .header__nav-logo {
   max-height: 3.8rem;
+}
+
+.header__nav-item:nth-child(1) .header__nav-link {
+  padding: 0;
 }
