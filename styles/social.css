@@ -1,0 +1,24 @@
+.social {
+  padding: 20px 0;
+  background-color: #f8efef;
+}
+
+.social__content-box {
+  display: flex;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.social__title {
+   margin-bottom: 1.2rem;
+}
+
+.social__link-image {
+   max-width: 100%;
+}
