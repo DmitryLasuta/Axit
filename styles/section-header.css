@@ -12,12 +12,15 @@
 }
 
 .section-header__subtitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  color: #86878b;
 }
 
 .section-header--white {
+  color: #fff;
+}
+
+.section-header--white > .section-header__subtitle {
   color: #fff;
 }
 
