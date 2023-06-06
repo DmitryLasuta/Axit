@@ -53,3 +53,14 @@ button {
 	background-color: transparent;
 	cursor: pointer;
 }
+
+input, textarea {
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
+}
