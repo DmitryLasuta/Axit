@@ -1,0 +1,47 @@
+.reviews {
+  padding: 50px 0;
+}
+
+.reviews__content-box {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.reviews__customer-review {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.reviews__customer-message {
+  background: #e2e2e2;
+  border-radius: 10px;
+  text-align: center;
+  padding: 38px 10px;
+}
+
+.reviews__customer-message::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 19px solid #e2e2e2;
+  position: relative;
+  /*
+    высота родителя + отступ снизу + высота стрелки 
+  */
+  top: calc(100% + 38px + 19px);
+}
+
+.reviews__customer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.reviews__customer-name {
+  padding: 15px 0;
+  text-transform: capitalize;
+}
