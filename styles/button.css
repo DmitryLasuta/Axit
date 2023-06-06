@@ -12,3 +12,24 @@
 .button:hover {
   background: #ab4949;
 }
+
+.button:active {
+  box-shadow: inset 0px 0px 10px #ab4949;
+}
+
+.button--transparent {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+.button--transparent:hover {
+  background: none;
+  border: 2px solid #ec7979;
+  color: #ec7979;
+}
+
+.button--transparent:active {
+  background: #ab4949;
+  border: 2px solid #ab4949;
+  color: #fff;
+}
