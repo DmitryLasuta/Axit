@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/config.css" />
     <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/social.css" />
     <link rel="stylesheet" href="./styles/tabs.css" />
     <link rel="stylesheet" href="./styles/section-header.css" />
@@ -33,8 +34,55 @@
 
     <title>AXIT</title>
   </head>
-
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content-box">
+          <div class="header__content">
+            <img
+              class="header__logo"
+              src="./assets/images/logo.png"
+              alt="Axit"
+            />
+            <h1 class="header__title">
+              MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+            </h1>
+            <p class="header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <button class="button button--transparent">download</button>
+          </div>
+
+          <form class="header__form" action="/" method="post">
+            <fieldset class="header__form-user-data">
+              <legend class="header__form-legend">
+                Try Your
+                <strong class="header__legend-strong-text">FREE</strong>
+                Trial Today
+              </legend>
+              <input
+                class="header__user-data-input"
+                type="text"
+                placeholder="Name"
+              />
+              <input
+                class="header__user-data-input"
+                type="email"
+                placeholder="Email"
+              />
+              <input
+                class="header__user-data-input"
+                type="password"
+                placeholder="Password"
+              />
+            </fieldset>
+            <button class="header__button button" type="submit">
+              Get Started
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
     <main class="main">
       <section class="social">
         <div class="container">
