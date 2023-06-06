@@ -1,21 +1,28 @@
 .section-header__title {
-   min-height: 150px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-header__separator {
-   width: 170px;
-   height: 0px;
-   border: 1px solid #EC7979;
-   margin: 0 auto;
-   margin-bottom: 40px;
+  width: 170px;
+  height: 0px;
+  border: 1px solid #ec7979;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .section-header__subtitle {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.section-header--white {
+  color: #fff;
+}
+
+.section-header--white > .section-header__separator {
+  border-color: #fff;
+}
