@@ -1,12 +1,10 @@
 .section-header__title {
-  min-height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .section-header__separator {
-  width: 170px;
+  width: 10rem;
   height: 0px;
   border: 1px solid #ec7979;
   margin: 0 auto;

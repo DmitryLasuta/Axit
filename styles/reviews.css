@@ -19,6 +19,7 @@
   border-radius: 10px;
   text-align: center;
   padding: 38px 10px;
+  color: #86878b;
 }
 
 .reviews__customer-message::before {
