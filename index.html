@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="./styles/pricing.css" />
     <link rel="stylesheet" href="./styles/reviews.css" />
     <link rel="stylesheet" href="./styles/design.css" />
+    <link rel="stylesheet" href="./styles/contact-us.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
 
     <title>AXIT</title>
@@ -61,7 +62,7 @@
               <a class="header__nav-link" href="#reviews">reviews</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">Contact</a>
+              <a class="header__nav-link" href="#contact-us">Contact</a>
             </li>
           </ul>
         </div>
@@ -460,6 +461,58 @@
         </header>
         <div class="design__content-box">
           <button class="button button--transparent">download</button>
+        </div>
+      </section>
+
+      <section class="contact-us" id="contact-us">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title">contact us</h2>
+            <div class="section-header__separator"></div>
+            <p class="section-header__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </header>
+
+          <form class="contact-us__form" action="" method="post">
+            <div class="contact-us__form-inputs">
+              <fieldset class="contact-us__user-data">
+                <legend class="contact-us__user-data-legend">
+                  Personal data
+                </legend>
+
+                <input
+                  class="header__user-data-input"
+                  type="text"
+                  placeholder="Name"
+                  autofocus
+                  required
+                  autocomplete="name"
+                />
+                <input
+                  class="header__user-data-input"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  autocomplete="email"
+                />
+                <input
+                  class="header__user-data-input"
+                  type="password"
+                  placeholder="Password"
+                  required
+                  autocomplete="current-password"
+                />
+              </fieldset>
+              <textarea
+                class="contact-us__user-message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button class="button" type="submit">send message</button>
+          </form>
         </div>
       </section>
     </main>

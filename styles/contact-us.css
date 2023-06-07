@@ -1,0 +1,30 @@
+.contact-us {
+   padding: 2.8rem 0;
+}
+
+.contact-us__user-data-legend {
+   font-size: 0;
+}
+
+.contact-us__user-message {
+   flex-grow: 1;
+}
+
+.contact-us__user-data {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+   flex-grow: 1;
+}
+
+.contact-us__form {
+   text-align: center;
+}
+
+.contact-us__form-inputs {
+   display: flex;
+   align-items: stretch;
+   justify-content: center;
+   gap: 30px;
+   margin-bottom: 50px;
+}
