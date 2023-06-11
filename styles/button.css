@@ -9,7 +9,7 @@
   padding: 16.5px 100px;
 }
 
-.button:hover {
+.button:is(:hover, :focus) {
   background: #ab4949;
 }
 
@@ -22,7 +22,7 @@
   background-color: transparent;
 }
 
-.button--transparent:hover {
+.button--transparent:is(:hover, :focus) {
   background: none;
   border: 2px solid #ec7979;
   color: #ec7979;

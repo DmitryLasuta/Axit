@@ -114,11 +114,11 @@
   padding: 1.53rem 2rem;
 }
 
-.header__nav-item:hover {
+.header__nav-link:is(:hover, :focus) {
   background-color: #ec7979;
 }
 
-.header__nav-item:active {
+.header__nav-link:active {
   background-color: #ab4949;
 }
 
@@ -127,8 +127,12 @@
   padding: 0;
 }
 
-.header__nav-item:first-child:hover {
+.header__nav-item:first-of-type > .header__nav-link {
   background-color: transparent;
+}
+
+.header__nav-item:first-of-type > .header__nav-link:focus {
+  outline: 1px solid #fff;
 }
 
 .header__nav-logo {
