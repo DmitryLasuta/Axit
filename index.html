@@ -186,19 +186,13 @@
       <section class="tabs" id="features">
         <div class="container">
           <h2 class="tabs__title">Features</h2>
-          <ul class="tabs__list" role="tablist">
-            <li class="tabs__item tabs__item--active" role="tab">
-              <button class="tabs__button" type="button">tab 1</button>
-            </li>
-            <li class="tabs__item" role="tab">
-              <button class="tabs__button" type="button">tab 2</button>
-            </li>
-            <li class="tabs__item" role="tab">
-              <button class="tabs__button" type="button">tab 3</button>
-            </li>
-          </ul>
+          <div class="tabs__list" role="tablist">
+            <button class="tabs__button tabs__button--active" type="button" role="tab">tab 1</button>
+            <button class="tabs__button" type="button" role="tab">tab 2</button>
+            <button class="tabs__button" type="button" role="tab">tab 3</button>
+          </div>
 
-          <section class="tabs__content">
+          <section class="tabs__content" role="tabpanel">
             <div class="tabs__content-description">
               <h3 class="tabs__content-title">
                 Tabs with soft transitioning effect.

@@ -28,23 +28,19 @@
   display: flex;
   align-items: center;
 }
-.tabs__item {
-  padding: 0.5rem 4.6rem;
-  cursor: pointer;
-  position: relative;
-  top: 1px;
-}
-
-.tabs__item--active {
-  background-color: #fff;
-  border: 1px solid #c6cbcd;
-  border-bottom: none;
-  border-radius: 5px 5px 0 0;
-}
-
 .tabs__button {
   font-family: "Open Sans";
   font-size: 14px;
   text-transform: uppercase;
   color: #333333;
+  padding: 0.5rem 4.6rem;
+  position: relative;
+  top: 1px;
+}
+
+.tabs__button--active {
+  background-color: #fff;
+  border: 1px solid #c6cbcd;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
 }
