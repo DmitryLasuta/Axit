@@ -2,10 +2,6 @@
    padding: 2.8rem 0;
 }
 
-.contact-us__user-data-legend {
-   font-size: 0;
-}
-
 .contact-us__user-message {
    flex-grow: 1;
 }
