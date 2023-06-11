@@ -12,18 +12,18 @@
   text-align: center;
 }
 
-.footer__social-list {
+.footer__social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
 }
 
-.footer__social-item-image {
+.footer__social-link-image {
   max-width: 75%;
 }
 
-.footer__social-link:focus .footer__social-item-image {
+.footer__social-link:focus .footer__social-link-image {
   border-radius: 5px;
   outline: 2px solid #ccc;
 }
