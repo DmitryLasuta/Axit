@@ -16,9 +16,14 @@
 }
 
 .social__title {
-   margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .social__link-image {
-   max-width: 100%;
+  max-width: 100%;
+}
+
+.social__link:focus .social__link-image {
+  border-radius: 5px;
+  outline: 2px solid #ccc;
 }
