@@ -48,3 +48,7 @@ input[type="email"]:focus,
 textarea:focus {
   box-shadow: 0 2px #ec7979;
 }
+
+section {
+  scroll-margin: 3rem;
+}
