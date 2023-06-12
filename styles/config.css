@@ -29,30 +29,6 @@ h3 {
   text-transform: capitalize;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea {
-  font-family: "Open Sans";
-  font-size: 0.8rem;
-  padding: 0.9rem 3px;
-  border-bottom: 1px solid #bdbdbd;
-}
-
-input[type="text"]::placeholder,
-input[type="password"]::placeholder,
-input[type="email"]::placeholder,
-textarea::placeholder {
-  color: #bdbdbd;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  box-shadow: 0 2px #ec7979;
-}
-
 section {
   scroll-margin: 3rem;
 }
