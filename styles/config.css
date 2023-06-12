@@ -3,6 +3,10 @@ html {
   font-size: 18px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
