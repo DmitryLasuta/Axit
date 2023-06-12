@@ -39,17 +39,16 @@
   <body>
     <header class="header">
       <nav class="header__nav">
-        <div class="container">
+        <div class="header__container">
+          <a class="header__nav-link" href="#">
+            <img
+              class="header__nav-logo"
+              src="./assets/images/logo.png"
+              alt="Axit"
+            />
+          </a>
           <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#">
-                <img
-                  class="header__nav-logo"
-                  src="./assets/images/logo.png"
-                  alt="Axit"
-                />
-              </a>
-            </li>
+            <li class="header__nav-item"></li>
             <li class="header__nav-item">
               <a class="header__nav-link" href="#features">features</a>
             </li>
@@ -187,7 +186,13 @@
         <div class="container">
           <h2 class="tabs__title">Features</h2>
           <div class="tabs__list" role="tablist">
-            <button class="tabs__button tabs__button--active" type="button" role="tab">tab 1</button>
+            <button
+              class="tabs__button tabs__button--active"
+              type="button"
+              role="tab"
+            >
+              tab 1
+            </button>
             <button class="tabs__button" type="button" role="tab">tab 2</button>
             <button class="tabs__button" type="button" role="tab">tab 3</button>
           </div>
