@@ -22,6 +22,7 @@
   text-align: center;
   padding: 38px 10px;
   color: #86878b;
+  position: relative;
 }
 
 .reviews__customer-message::before {
@@ -31,11 +32,12 @@
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-top: 19px solid #e2e2e2;
-  position: relative;
+  position: absolute;
   /*
     высота родителя + отступ снизу + высота стрелки 
   */
-  top: calc(100% + 38px + 19px);
+  top: 100%;
+  left: 10%;
 }
 
 .reviews__customer {
@@ -47,4 +49,16 @@
 .reviews__customer-name {
   padding: 15px 0;
   text-transform: capitalize;
+}
+
+@media (max-width: 562px) {
+  .reviews__content-box {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .reviews__customer-review {
+    min-width: 100%;
+    scroll-snap-align: center;
+  }
 }

@@ -26,3 +26,9 @@
 .about__card-description {
    text-align: center;
 }
+
+@media (max-width: 560px) {
+   .about__content-box {
+      flex-direction: column;
+   }
+}
