@@ -13,17 +13,22 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  gap: 10px;
 }
 
 .social__title {
   margin-bottom: 1.2rem;
 }
 
-.social__link-image {
-  max-width: 100%;
-}
-
 .social__link:focus .social__link-image {
   border-radius: 5px;
   outline: 2px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .social__content-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
 }

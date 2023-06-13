@@ -18,17 +18,34 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 18px;
   text-transform: capitalize;
 }
 
 section {
   scroll-margin: 3rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 456px) {
+  h2 {
+    font-size: 18px;
+  }
 }

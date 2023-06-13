@@ -5,9 +5,10 @@
 
 .pricing__content-box {
   margin-top: 60px;
-  min-height: 550px;
+  min-height: 30rem;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .pricing__list {
@@ -25,14 +26,14 @@
 }
 
 .pricing__list-item {
-  font-size: 18px;
+  font-size: 1rem;
   text-transform: capitalize;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #ffffff;
   color: #86878b;
-  padding: 15px 0;
+  padding: 0.85rem 0;
 }
 
 .pricing__list-item--black {
@@ -51,5 +52,11 @@
 .pricing__list-item--grow-x2 {
   flex-grow: 2;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .pricing__content-box {
+    flex-direction: column;
+  }
 }
