@@ -58,5 +58,6 @@
 @media (max-width: 768px) {
   .pricing__content-box {
     flex-direction: column;
+    padding: 0 10%;
   }
 }

@@ -51,8 +51,14 @@
   text-transform: capitalize;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 562px) {
   .reviews__content-box {
-    flex-direction: column;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .reviews__customer-review {
+    min-width: 100%;
+    scroll-snap-align: center;
   }
 }
