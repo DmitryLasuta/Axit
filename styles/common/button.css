@@ -1,12 +1,12 @@
 .button {
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 25px;
   text-transform: capitalize;
   color: #ffffff;
   background-color: #ec7979;
-  padding: 16.5px 100px;
+  padding: 16.5px 80px;
 }
 
 .button:is(:hover, :focus) {
@@ -32,4 +32,10 @@
   background: #ab4949;
   border: 2px solid #ab4949;
   color: #fff;
+}
+
+@media (max-width: 528px) {
+  /* .button {
+    padding: 12px 70px;
+  } */
 }

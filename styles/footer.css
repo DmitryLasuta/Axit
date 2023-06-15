@@ -27,3 +27,13 @@
   border-radius: 5px;
   outline: 2px solid #ccc;
 }
+
+@media (max-width: 528px) {
+  .footer__social-link-image {
+    max-width: 100%;
+  }
+
+  .footer__social-links {
+    gap: 1rem;
+  }
+}
